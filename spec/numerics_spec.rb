@@ -18,4 +18,10 @@ describe Numerics do
       Numerics.even?(4) == true
     }
   end
+  
+  it 'even test (false)' do
+    assert {
+      Numerics.even?(3) == false
+    }
+  end
 end
